@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SectionCard extends StatelessWidget {
-  const SectionCard({
-    required this.title,
-    required this.subtitle,
-    super.key,
-  });
+  const SectionCard({required this.title, required this.subtitle, super.key});
 
   final String title;
   final String subtitle;
@@ -23,15 +19,12 @@ class SectionCard extends StatelessWidget {
             Text(
               title,
               style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                    fontWeight: FontWeight.w700,
-                    color: colorScheme.primary,
-                  ),
+                fontWeight: FontWeight.w700,
+                color: colorScheme.primary,
+              ),
             ),
             const SizedBox(height: 8),
-            Text(
-              subtitle,
-              style: Theme.of(context).textTheme.bodyMedium,
-            ),
+            Text(subtitle, style: Theme.of(context).textTheme.bodyMedium),
           ],
         ),
       ),
