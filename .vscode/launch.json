@@ -1,0 +1,52 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "console": "debugConsole",
+      "args": []
+    },
+    {
+      "name": "Flutter (Profile Mode)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "console": "debugConsole",
+      "args": [
+        "--profile"
+      ]
+    },
+    {
+      "name": "Flutter (Release Mode)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "console": "debugConsole",
+      "args": [
+        "--release"
+      ]
+    },
+    {
+      "name": "Flutter - Windows Desktop",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "console": "debugConsole",
+      "args": [
+        "-d",
+        "windows"
+      ]
+    },
+    {
+      "name": "Dart: Run tests",
+      "type": "dart",
+      "request": "launch",
+      "program": "test/",
+      "console": "debugConsole"
+    }
+  ],
+  "compounds": []
+}

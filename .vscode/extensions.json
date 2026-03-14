@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "Dart-Code.dart-code",
+    "Dart-Code.flutter",
+    "Dart-Code.dart-test-runner",
+    "firsttris.vscode-firebase-explorer",
+    "ms-vscode.makefile-tools",
+    "eamodio.gitlens",
+    "esbenp.prettier-code-formatter",
+    "ms-vscode.vscode-serial-monitor"
+  ]
+}
