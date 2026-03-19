@@ -8,7 +8,7 @@ class RpgApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'RPG App',
+      title: 'RPG App - Fichas',
       theme: AppTheme.light,
       debugShowCheckedModeBanner: false,
       home: const HomePage(),

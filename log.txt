@@ -1,0 +1,305 @@
+
+════════ Exception caught by widgets library ═══════════════════════════════════
+The following LateError was thrown building CharacterDetailPage(dirty, dependencies: [InheritedCupertinoTheme, UncontrolledProviderScope, _InheritedTheme, _LocalizationsScope-[GlobalKey#8cab7]], state: _CharacterDetailPageState#4a4d8):
+LateInitializationError: Field '_tempHpController@45422422' has not been initialized.
+
+The relevant error-causing widget was:
+    CharacterDetailPage CharacterDetailPage:file:///C:/dev/rpg/lib/src/features/home/presentation/pages/home_page.dart:419:31
+
+When the exception was thrown, this was the stack:
+#0      _CharacterDetailPageState._tempHpController (package:rpg_app/src/features/character/presentation/pages/character_detail_page.dart)
+#1      _CharacterDetailPageState.build.<anonymous closure> (package:rpg_app/src/features/character/presentation/pages/character_detail_page.dart:167:37)
+#2      AsyncValueX.when (package:riverpod/src/common.dart:742:16)
+#3      _CharacterDetailPageState.build (package:rpg_app/src/features/character/presentation/pages/character_detail_page.dart:89:28)
+#4      StatefulElement.build (package:flutter/src/widgets/framework.dart:5833:27)
+#5      ConsumerStatefulElement.build (package:flutter_riverpod/src/consumer.dart:539:20)
+#6      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5723:15)
+#7      StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#8      Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#9      StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#10     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#11     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7025:14)
+#12     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#13     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#14     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#15     StatelessElement.update (package:flutter/src/widgets/framework.dart:5797:5)
+#16     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#17     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7025:14)
+#18     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#19     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7025:14)
+#20     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#21     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#22     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#23     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#24     StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#25     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#26     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7025:14)
+#27     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#28     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#29     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#30     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#31     StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#32     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#33     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7025:14)
+#34     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#35     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#36     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#37     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#38     StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#39     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#40     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#41     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#42     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#43     StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#44     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#45     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7025:14)
+#46     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#47     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#48     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#49     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#50     StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#51     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#52     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7025:14)
+#53     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#54     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#55     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#56     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#57     StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#58     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#59     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#60     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#61     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#62     StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#63     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#64     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#65     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#66     StatelessElement.update (package:flutter/src/widgets/framework.dart:5797:5)
+#67     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#68     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#69     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#70     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#71     StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#72     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#73     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#74     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#75     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#76     StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#77     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#78     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7025:14)
+#79     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#80     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#81     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#82     ProxyElement.update (package:flutter/src/widgets/framework.dart:6051:5)
+#83     _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:108:11)
+#84     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#85     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7025:14)
+#86     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#87     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#88     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#89     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#90     StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#91     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#92     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#93     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#94     ProxyElement.update (package:flutter/src/widgets/framework.dart:6051:5)
+#95     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#96     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#97     Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#98     ProxyElement.update (package:flutter/src/widgets/framework.dart:6051:5)
+#99     Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#100    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#101    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#102    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#103    StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#104    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#105    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#106    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#107    StatelessElement.update (package:flutter/src/widgets/framework.dart:5797:5)
+#108    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#109    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#110    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#111    StatelessElement.update (package:flutter/src/widgets/framework.dart:5797:5)
+#112    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#113    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7025:14)
+#114    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#115    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#116    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#117    ProxyElement.update (package:flutter/src/widgets/framework.dart:6051:5)
+#118    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#119    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#120    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#121    ProxyElement.update (package:flutter/src/widgets/framework.dart:6051:5)
+#122    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#123    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#124    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#125    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#126    StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#127    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#128    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#129    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#130    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#131    StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#132    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#133    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#134    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#135    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#136    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2695:15)
+#137    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2752:11)
+#138    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3056:18)
+#139    WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:1259:21)
+#140    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#141    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1434:15)
+#142    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1347:9)
+#143    SchedulerBinding.scheduleWarmUpFrame.<anonymous closure> (package:flutter/src/scheduler/binding.dart:1057:9)
+#144    PlatformDispatcher.scheduleWarmUpFrame.<anonymous closure> (dart:ui/platform_dispatcher.dart:886:16)
+#148    _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:193:12)
+(elided 3 frames from class _Timer and dart:async-patch)
+
+════════════════════════════════════════════════════════════════════════════════
+I/ImeTracker(31357): com.example.rpg_app:83eb39b7: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+Restarted application in 1.242ms.
+W/WindowOnBackDispatcher(31357): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(31357): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+
+════════ Exception caught by rendering library ═════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 19 pixels on the bottom.
+
+The relevant error-causing widget was:
+    Column Column:file:///C:/dev/rpg/lib/src/features/character/presentation/pages/character_detail_page.dart:724:16
+
+: To inspect this widget in Flutter DevTools, visit: http://127.0.0.1:9100/#/inspector?uri=http%3A%2F%2F127.0.0.1%3A52284%2Fzuztf8J7lhE%3D%2F&inspectorRef=inspector-0
+
+The overflowing RenderFlex has an orientation of Axis.vertical.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be seen. If the content is legitimately bigger than the available space, consider clipping it with a ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex, like a ListView.
+The specific RenderFlex in question is: RenderFlex#64ea8 OVERFLOWING
+    needs compositing
+    parentData: offset=Offset(8.0, 8.0) (can use size)
+    constraints: BoxConstraints(w=90.9, h=47.8)
+    size: Size(90.9, 47.8)
+    direction: vertical
+    mainAxisAlignment: center
+    mainAxisSize: max
+    crossAxisAlignment: start
+    textDirection: ltr
+    verticalDirection: down
+    spacing: 0.0
+    child 1: RenderParagraph#0de62 relayoutBoundary=up1
+        parentData: offset=Offset(0.0, 0.0); flex=null; fit=null (can use size)
+        constraints: BoxConstraints(0.0<=w<=90.9, 0.0<=h<=Infinity)
+        size: Size(20.8, 16.0)
+        textAlign: start
+        textDirection: ltr
+        softWrap: wrapping at box width
+        overflow: clip
+        textScaler: SystemTextScaler (0.81x)
+        locale: en_US
+        maxLines: unlimited
+        text: TextSpan
+            debugLabel: (englishLike labelLarge 2021).merge((blackMountainView labelLarge).apply)
+            inherit: false
+            color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+            family: Roboto
+            size: 14.0
+            weight: 500
+            letterSpacing: 0.1
+            baseline: alphabetic
+            height: 1.4x
+            leadingDistribution: even
+            decoration: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB) TextDecoration.none
+            "STR"
+    child 2: RenderConstrainedBox#7a0ef relayoutBoundary=up1
+        parentData: offset=Offset(0.0, 16.0); flex=null; fit=null (can use size)
+        constraints: BoxConstraints(0.0<=w<=90.9, 0.0<=h<=Infinity)
+        size: Size(0.0, 4.0)
+        additionalConstraints: BoxConstraints(0.0<=w<=Infinity, h=4.0)
+    child 3: RenderSemanticsAnnotations#47536 relayoutBoundary=up1
+        needs compositing
+        parentData: offset=Offset(0.0, 20.0); flex=null; fit=null (can use size)
+        constraints: BoxConstraints(0.0<=w<=90.9, 0.0<=h<=Infinity)
+        size: Size(90.9, 27.0)
+        child: RenderMouseRegion#bf8e7 relayoutBoundary=up2
+            needs compositing
+            parentData: <none> (can use size)
+            constraints: BoxConstraints(0.0<=w<=90.9, 0.0<=h<=Infinity)
+            size: Size(90.9, 27.0)
+            behavior: opaque
+            listeners: enter, exit
+            cursor: SystemMouseCursor(text)
+            child: RenderTapRegion#f88e7 relayoutBoundary=up3
+                needs compositing
+                parentData: <none> (can use size)
+                constraints: BoxConstraints(0.0<=w<=90.9, 0.0<=h<=Infinity)
+                size: Size(90.9, 27.0)
+                behavior: deferToChild
+                groupId: EditableText
+                child: RenderIgnorePointer#56e7b relayoutBoundary=up4
+                    needs compositing
+                    parentData: <none> (can use size)
+                    constraints: BoxConstraints(0.0<=w<=90.9, 0.0<=h<=Infinity)
+                    size: Size(90.9, 27.0)
+                    ignoring: false
+                    ignoringSemantics: null
+    child 4: RenderConstrainedBox#9a14c relayoutBoundary=up1
+        parentData: offset=Offset(0.0, 47.0); flex=null; fit=null (can use size)
+        constraints: BoxConstraints(0.0<=w<=90.9, 0.0<=h<=Infinity)
+        size: Size(0.0, 4.0)
+        additionalConstraints: BoxConstraints(0.0<=w<=Infinity, h=4.0)
+    child 5: RenderParagraph#1279c relayoutBoundary=up1
+        parentData: offset=Offset(0.0, 51.0); flex=null; fit=null (can use size)
+        constraints: BoxConstraints(0.0<=w<=90.9, 0.0<=h<=Infinity)
+        size: Size(39.5, 16.0)
+        textAlign: start
+        textDirection: ltr
+        softWrap: wrapping at box width
+        overflow: clip
+        textScaler: SystemTextScaler (0.81x)
+        locale: en_US
+        maxLines: unlimited
+        text: TextSpan
+            debugLabel: (englishLike bodyMedium 2021).merge((blackMountainView bodyMedium).apply)
+            inherit: false
+            color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+            family: Roboto
+            size: 14.0
+            weight: 400
+            letterSpacing: 0.3
+            baseline: alphabetic
+            height: 1.4x
+            leadingDistribution: even
+            decoration: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB) TextDecoration.none
+            "Mod +3"
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════
+
+════════ Exception caught by rendering library ═════════════════════════════════
+A RenderFlex overflowed by 19 pixels on the bottom.
+The relevant error-causing widget was:
+    Column Column:file:///C:/dev/rpg/lib/src/features/character/presentation/pages/character_detail_page.dart:724:16
+════════════════════════════════════════════════════════════════════════════════
+
+════════ Exception caught by rendering library ═════════════════════════════════
+A RenderFlex overflowed by 19 pixels on the bottom.
+The relevant error-causing widget was:
+    Column Column:file:///C:/dev/rpg/lib/src/features/character/presentation/pages/character_detail_page.dart:724:16
+════════════════════════════════════════════════════════════════════════════════
+
+════════ Exception caught by rendering library ═════════════════════════════════
+A RenderFlex overflowed by 19 pixels on the bottom.
+The relevant error-causing widget was:
+    Column Column:file:///C:/dev/rpg/lib/src/features/character/presentation/pages/character_detail_page.dart:724:16
+════════════════════════════════════════════════════════════════════════════════
+
+════════ Exception caught by rendering library ═════════════════════════════════
+A RenderFlex overflowed by 19 pixels on the bottom.
+The relevant error-causing widget was:
+    Column Column:file:///C:/dev/rpg/lib/src/features/character/presentation/pages/character_detail_page.dart:724:16
+════════════════════════════════════════════════════════════════════════════════
+
+════════ Exception caught by rendering library ═════════════════════════════════
+A RenderFlex overflowed by 19 pixels on the bottom.
+The relevant error-causing widget was:
+    Column Column:file:///C:/dev/rpg/lib/src/features/character/presentation/pages/character_detail_page.dart:724:16
+════════════════════════════════════════════════════════════════════════════════
